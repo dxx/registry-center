@@ -1,0 +1,23 @@
+#!/bin/bash
+
+##############################################################################
+##
+##  Registration center shutdown script for UN*X
+##
+##############################################################################
+
+cd `dirname \$0`/../
+dir=`pwd`
+
+pid=`ps ax | grep -i "${mainClassName}" | grep \${dir} | grep java | grep -v grep | awk '{print \$1}'`
+if [ -z "\$pid" ] ; then
+        echo "No register server running."
+        exit -1;
+fi
+
+echo "The register server(\${pid}) is running..."
+echo "Killing register server"
+
+kill \$pid
+
+echo "OK!"

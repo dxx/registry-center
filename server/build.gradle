@@ -1,0 +1,10 @@
+description = "Registration Server"
+
+java {
+    archivesBaseName = "registration-server"
+}
+
+dependencies {
+    // Logback
+    implementation "ch.qos.logback:logback-classic:${logbackVersion}"
+}

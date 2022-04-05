@@ -1,0 +1,4 @@
+rootProject.name = 'registration-center'
+
+include 'distribution'
+include 'server'

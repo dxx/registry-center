@@ -1,0 +1,17 @@
+description = "Registration Center"
+
+ext {
+    set("logbackVersion", "1.2.5")
+}
+
+configure(subprojects) { project ->
+    apply plugin: "java"
+
+    group "io.registration"
+    version "0.1.0"
+
+    repositories {
+        maven { url "https://maven.aliyun.com/repository/public" }
+        mavenCentral()
+    }
+}
