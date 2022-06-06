@@ -1,7 +1,7 @@
-description = "Registration Server"
+description = "Registry Center Server"
 
 java {
-    archivesBaseName = "registration-server"
+    archivesBaseName = "registry-server"
 }
 
 dependencies {
