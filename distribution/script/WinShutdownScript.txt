@@ -3,7 +3,7 @@
 @if "%DEBUG%" == "" @echo off
 @rem ##########################################################################
 @rem
-@rem  Registration center shutdown for Windows
+@rem  Registry center shutdown for Windows
 @rem
 @rem ##########################################################################
 

@@ -1,7 +1,7 @@
-package io.registration;
+package io.registry.center;
 
 /**
- * Created by dxx on 2022-04-04.
+ * Created by dxx.
  */
 public class Starter {
 
